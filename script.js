@@ -1,8 +1,8 @@
-const searchBtn = document.getElementById("searchBtn");
+const btn = document.getElementById("btn");
 const usernameInput = document.getElementById("username");
 const result = document.getElementById("result");
 
-searchBtn.addEventListener("click", getUser);
+btn.addEventListener("click", getUser);
 
 async function getUser() {
 
